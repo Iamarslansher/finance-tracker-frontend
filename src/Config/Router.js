@@ -8,6 +8,7 @@ import UpdateProfile from "../Components/UpdateProfile/UpdateProfile";
 import Transaction from "../Components/Transactions/Transaction";
 import TotalBudget from "../Components/TotalBudget/TotalBudget";
 import Graphs from "../Components/Graphs/Graphs";
+import History from "../Components/History/History";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/graphs",
     element: <Graphs />,
+  },
+  {
+    path: "/history",
+    element: <History />,
   },
 ]);
 

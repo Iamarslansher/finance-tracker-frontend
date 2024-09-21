@@ -1,0 +1,53 @@
+.history-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "sidebar history history history";
+  /* grid-template-columns: 20% 80%; */
+}
+
+.sideBar {
+  grid-area: sidebar;
+  background-color: #f5f7fa;
+  padding: 1rem;
+}
+.righrContent {
+  grid-area: history;
+  background-color: #fff;
+  padding: 1rem;
+  height: 100%;
+}
+.transaction-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.historyDiv {
+  background-color: #f5f7fa;
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 20px black;
+}
+
+.transactionInfo {
+  width: 100%;
+}
+
+.transactionInfo p {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.delete-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

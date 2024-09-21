@@ -127,7 +127,7 @@ const Dashboard = () => {
             <FiDollarSign className="sidebarIcon" />
             Add Amount
           </a>
-          <a href="/amount" className="sidebarItem">
+          <a href="/history" className="sidebarItem">
             <FaHistory className="sidebarIcon" />
             History
           </a>
@@ -150,7 +150,6 @@ const Dashboard = () => {
           </a>
           <a href="/login" className="sidebarItem">
             <CiCalendarDate className="sidebarIcon" />
-            {/* {`${month + 1}-${day}-${year}`} */}
             {date}
           </a>
           <a href="/login" className="sidebarItem">

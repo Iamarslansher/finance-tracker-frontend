@@ -71,7 +71,10 @@
   font-size: 1.25rem;
   letter-spacing: 1px;
   font-weight: 700;
-  text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 30px cyan;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+  /* text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 30px cyan; */
 }
 
 .profileContainer {
