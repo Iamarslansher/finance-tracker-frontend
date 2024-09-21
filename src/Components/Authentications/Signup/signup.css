@@ -1,0 +1,94 @@
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #9333ea, #ec4899);
+}
+
+.signup-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 24rem;
+  animation: fadeInDown 0.5s ease-out;
+}
+
+.signup-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  color: #9ca3af;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  color: #9ca3af;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-button {
+  width: 100%;
+  background-color: #9333ea;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.signup-button:hover {
+  background-color: #7e22ce;
+  transform: scale(1.05);
+}
+
+.login-link {
+  margin-top: 1rem;
+  text-align: center;
+  color: #4b5563;
+}
+
+.login-link a {
+  color: #9333ea;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

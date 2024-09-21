@@ -1,0 +1,41 @@
+.navbar {
+  height: 13vh !important;
+}
+
+.navLinks {
+  position: absolute;
+  right: 60px;
+}
+.logo {
+  letter-spacing: 4px;
+  color: blue;
+  font-size: 30px;
+}
+.sub_logo {
+  color: black;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+
+.navLink {
+  padding: 6px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: all 1s;
+}
+
+.singupLink {
+  background-color: royalblue;
+  color: white;
+}
+
+.loginLink {
+  color: blue;
+}
+
+.loginLink:hover {
+  background-color: royalblue;
+  color: white;
+}
